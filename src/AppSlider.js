@@ -4,19 +4,11 @@ const MiSlider =() =>{
         <section class="container mt-2">
         <h1 class="text-center">Soluciones y desarrollo </h1>
     <div id="controls" class="carousel slide" date-bs-ride="carousel">
-
       <div class="carousel-indicators">
-
-        <button data-bs-target="#controls" data-bs-slide-to="0" class="active">
-
-        </button>
-
-        <button data-bs-target="#controls" data-bs-slide-to="1"> </button>
-        <button data-bs-target="#controls" data-bs-slide-to="2"> </button>
-
+        <button data-bs-target="#controls" data-bs-slide-to="0" class="active"></button>
+        <button data-bs-target="#controls" data-bs-slide-to="1"></button>
+        <button data-bs-target="#controls" data-bs-slide-to="2"></button>
       </div>
-
-
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="https://media.slidesgo.com/storage/7288412/futuristic-background1622641945.jpg" alt="imagen1"
@@ -43,19 +35,12 @@ const MiSlider =() =>{
             <h3>El futuro es ahora</h3>
             <p>La tecnologia es mas que una pagina web</p>
           </div>
-
         </div>
-
       </div>
-      <button class="carousel-control-prev" data-bs-target="#controls" data-bs-slide="prev"
-        style="background-color: blue ">
-        <span>previous</span>
+      <button class="carousel-control-prev" data-bs-target="#controls" data-bs-slide="prev">
         <span class="carousel-control-prev-icon"></span>
       </button>
-
-      <button class="carousel-control-next" data-bs-target="#controls" data-bs-slide="next"
-        style="background-color: blue ">
-        <span>next</span>
+      <button class="carousel-control-next" data-bs-target="#controls" data-bs-slide="next">
         <span class="carousel-control-next-icon"></span>
       </button>
     </div>
